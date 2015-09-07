@@ -23,6 +23,10 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/src
     ${PROJECT_SOURCE_DIR}/third-party/gtest-1.7.0
     ${PROJECT_SOURCE_DIR}/third-party/gtest-1.7.0/include
+    ${PROJECT_SOURCE_DIR}/third-party/ESP8266
+    ${PROJECT_SOURCE_DIR}/third-party/ESP8266/include
+
+
     )
 
 add_library(
