@@ -1,5 +1,5 @@
 
-[![Build Status](https://travis-ci.org/bast/gtest-demo.svg?branch=master)](https://travis-ci.org/bast/gtest-demo/builds) [![Coverage Status](https://coveralls.io/repos/bast/gtest-demo/badge.png?branch=master)](https://coveralls.io/r/bast/gtest-demo?branch=master)
+[![Build Status](https://travis-ci.org/Protoneer/gtest-demo.svg?branch=master)](https://travis-ci.org/bast/gtest-demo/builds) [![Coverage Status](https://coveralls.io/repos/Protoneer/gtest-demo/badge.png?branch=master)](https://coveralls.io/r/bast/gtest-demo?branch=master)
 
 gtest-demo
 ==========
