@@ -29,6 +29,8 @@ script:
   - mkdir build
   - cd build
   - cmake ..
+  - ls $HOME/arduino_ide/libraries
+  - ls $HOME/arduino_ide/libraries/NeoPixelBus
   - make
   - ./unit_tests
   
