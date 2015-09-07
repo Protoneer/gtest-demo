@@ -21,8 +21,8 @@ endif()
 
 include_directories(
     ${PROJECT_SOURCE_DIR}/src
-    ${PROJECT_SOURCE_DIR}/external/googletest
-    ${PROJECT_SOURCE_DIR}/external/googletest/include
+    ${PROJECT_SOURCE_DIR}/third-party/gtest-1.7.0
+    ${PROJECT_SOURCE_DIR}/third-party/gtest-1.7.0/include
     )
 
 add_library(
@@ -39,14 +39,14 @@ add_custom_target(
 
 add_library(
     gtest
-    ${PROJECT_SOURCE_DIR}/external/googletest/src/gtest-all.cc
-    ${PROJECT_SOURCE_DIR}/external/googletest/src/gtest_main.cc
+    ${PROJECT_SOURCE_DIR}/third-party/gtest-1.7.0/src/gtest-all.cc
+    ${PROJECT_SOURCE_DIR}/third-party/gtest-1.7.0/src/gtest_main.cc
     )
 
 add_dependencies(gtest git_update)
 
-set_source_files_properties(${PROJECT_SOURCE_DIR}/external/googletest/src/gtest-all.cc  PROPERTIES GENERATED 1)
-set_source_files_properties(${PROJECT_SOURCE_DIR}/external/googletest/src/gtest_main.cc PROPERTIES GENERATED 1)
+set_source_files_properties(${PROJECT_SOURCE_DIR}/third-party/gtest-1.7.0/src/gtest-all.cc  PROPERTIES GENERATED 1)
+set_source_files_properties(${PROJECT_SOURCE_DIR}/third-party/gtest-1.7.0/src/gtest_main.cc PROPERTIES GENERATED 1)
 
 add_executable(
     unit_tests
