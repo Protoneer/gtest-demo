@@ -27,7 +27,7 @@ include_directories(
 
 add_library(
     example
-    src/example.cpp
+    src/BlendRGB.cpp
     )
 
 add_custom_target(
