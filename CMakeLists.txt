@@ -27,7 +27,7 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/third-party/ESP8266/include
     ${PROJECT_SOURCE_DIR}/third-party/ESP8266-CORES
     ${PROJECT_SOURCE_DIR}/third-party/ESP8266-SDK-INCLUDE
-    $HOME/arduino_ide/libraries/NeoPixelBus/src
+    $HOME/arduino_ide/libraries/NeoPixelBus
 
 
 
