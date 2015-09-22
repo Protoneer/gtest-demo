@@ -8,5 +8,6 @@ script:
   - make
   - ./unit_tests
   
+  
 after_success:
   - coveralls --root .. -E ".*third-party.*" -E ".*CMakeFiles.*" -E ".*test/.*.cpp.*"
